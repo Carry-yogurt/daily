@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cost_type">
+        <item>饮食</item>
+        <item>工资</item>
+        <item>医疗</item>
+        <item>购物</item>
+        <item>其他</item>
+    </string-array>
+</resources>

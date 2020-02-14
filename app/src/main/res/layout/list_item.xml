@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="CostTitlesdfsdf"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:id="@+id/tv_costTitle"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/tv_costTitle"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/tv_costDate"
+        android:layout_marginLeft="15dp"
+        android:text="costDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="教育"
+        android:gravity="center"
+        android:layout_height="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/tv_costMoney"
+        android:id="@+id/tv_costType"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_costMoney"
+        android:text="30"/>
+
+
+</RelativeLayout>
